@@ -1,0 +1,11 @@
+{
+  "name": "Mindarc",
+  "description": "...",
+  "version": "0.0.0",
+  "repository": "https://bitbucket.org/diegodafm/mindarc",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "bootstrap-sass": "~3.3.5"
+  }
+}
