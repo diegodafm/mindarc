@@ -29,7 +29,7 @@ Running it
 	grunt build
 ```
 
-* You can also run grunt and liveload the changes you've made
+* You can also run grunt and livereload the changes you've made
 ```shell
 	grunt
 ```
