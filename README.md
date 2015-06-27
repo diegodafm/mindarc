@@ -8,6 +8,9 @@ Although wasn't required to use pre-processor of CSS, but I wanted expose a few 
 
 Is not required to run any command to run the application, just clone then open the index.html file on your favority web browser and you might see it running. 
 
+Unfortunately, wasn't clear if I must work with pixel perfect precision, or just show a few of my knowledge,
+however I tried to follow as much as I could but also I have more emphasis responsive layout and covering the main purpose of the template.
+
 The reason I've committed the dist files and vendors, is just to avoid extra works to test out.
 If you want to run the app locally, just follow the instructions and you will be good.
 
