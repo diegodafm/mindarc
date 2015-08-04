@@ -1,9 +1,9 @@
 {
-  "name": "Mindarc",
+  "name": "eroad",
   "version": "0.0.0",
   "author": "diego.dafm@gmail.com",
-  "description": "Arabela Dashboard",
-  "repository": "https://bitbucket.org/diegodafm/mindarc",
+  "description": "Eroad Test",
+  "repository": "",
   "license": "MIT",
   "devDependencies": {
     "bower": "^1.3.1",
