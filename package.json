@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "author": "diego.dafm@gmail.com",
   "description": "Eroad Test",
-  "repository": "",
+  "repository": "https://bitbucket.org/diegodafm/eroad",
   "license": "MIT",
   "devDependencies": {
     "bower": "^1.3.1",

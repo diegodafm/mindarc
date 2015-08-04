@@ -8,155 +8,32 @@
     <link href="dist/styles/main.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </head>
-<body>
-
-
-      
-
-    </div> <!-- /container -->
-
+    <body>
         <header class="main-header">
             <div class="container">
-                <picture class="logo">
-                    <img src="src/imgs/logo.jpg" alt="bar" srcset="src/imgs/logo@2x.jpg 2x" />
-                </picture>
-
-                <!-- Static navbar -->
-                <nav class="navbar navbar-default">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>  
-                </nav>
-                <nav  id="navbar" class="navbar-collapse collapse nav">
-                    <ul>
-                        <li>
-                            <a href="#">Culture</a>
-                        </li>
-                        <li>
-                            <a href="#">Projects</a>
-                        </li>
-                        <li>    
-                            <a href="#">Hosting</a>
-                        </li>
-                        <li>
-                            <a href="#">Support</a>
-                        </li>
-                        <li>
-                            <a href="#">Contact us</a>
-                        </li>
-                    </ul>
-                </nav>
+                Diego Alisson Fernandes de Mendonça
             </div>
         </header>
         <div class="flex-container">
-            <ul class="breadcrumb">
-                <li>Breadcrumb 1</li>
-                <li class="current">Breadcrumb 2</li>
-            </ul>
-        </div>
-        <div class="flex-container">
             <aside class="left-navigation">
-                <header class="navigation-header">Accordion Header</header>
-                <ul>
-                    <li class="closed">Accordion 1</li>
-                    <li>Accordion 2</li>
-                    <li class="opened">Accordion 3</li>
-                    <li class="subnav">
-                        <ul>
-                            <li class="sub-opened">Accordion 3 sub 1</li>
-                            <li>
-                                <ul>
-                                    <li>Accordion 3 sub 2</li>
-                                    <li>Accordion 3 sub 2</li>
-                                </ul>
-                            </li>
-                            <li class="sub-closed">Accordion 3 sub 1</li>
-                        </ul>
-                    </li>
-                    <li>Accordion 4</li>
-                    <li>Accordion 4</li>
-                    <li class="closed">Accordion 6</li>
-                </ul>
+                <header class="navigation-header">Locations</header>
+                <ul id="markers"></ul>
             </aside>
             <main class="main-container">
-                <header class="container-header">
-                    <h1>Design</h1>
-                    <button class="green">Button</button>
-                </header>
-                <p>
-                    <p> Kevin boudin chicken sirloin andouille prosciutto. Kielbasa shoulder chicken tongue filet mignon flank jowl tenderloin beef ribs jerky ham hock shank. </p>
-                </p>
-                <section>
-                    <h2>Header 2</h2>
-                    <div class="thumbnails">
-                            <div class="thumbnail-container">
-                                <a href="#" class="thumbnail">
-                                </a>
-                            </div>
-                            <div class="thumbnail-container">
-                                <a href="#" class="thumbnail">
-                                </a>
-                            </div>
-                            <div class="thumbnail-container">
-                                <a href="#" class="thumbnail">
-                                </a>
-                            </div>
-                            <div class="thumbnail-container">
-                                <a href="#" class="thumbnail">
-                                </a>
-                            </div>
-                            <div class="thumbnail-container">
-                                <a href="#" class="thumbnail">
-                                </a>
-                            </div>
-                            <div class="thumbnail-container">
-                                <a href="#" class="thumbnail">
-                                </a>
-                            </div>
-                        </div>
-                </section>
-                <section>
-                    <h2>Header 2</h2>
-                    <div class="sub-section">
-                        <h3>Header 3</h3>
-                        <div class="content">
-                            <div class="header-content">
-                                Description
-                            </div>
-                            <div class="footer-content">
-                                Bacon Lorem Ipsum
-                            </div>
-                        </div>
-                        <div class="content">
-                            <div class="header-content">
-                                Description
-                            </div>
-                            <div class="footer-content">
-                                Bacon Lorem Ipsum
-                            </div>
-                        </div>
-
-                        <div class="bottom">
-                            <button class="gray" type="button" onclick="">Button</button>
-                        </div>                      
-
-                    </div>
-                </section>
+                <div id="map-canvas"></div>
             </main>
         </div>  
         <footer>
             <div class="container">
-                &copy; Mindarc Digital
+                @ Diego Alisson
             </div>
         </footer>
 
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
         <script type="text/javascript" src="src/vendor/jquery/dist/jquery.min.js"></script>
         <script type="text/javascript" src="src/vendor/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
-        
+        <script type="text/javascript" src="src/vendor/moment/moment.js"></script>
+        <script type="text/javascript" src="src/scripts/map.js"></script>
+
     </body>
 </html>
